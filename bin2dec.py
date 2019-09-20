@@ -46,6 +46,7 @@ def bin2dec():
 
 def main():
     bin2dec()
+    input("Press enter to exit")
 
 if __name__ == '__main__':
     main()
