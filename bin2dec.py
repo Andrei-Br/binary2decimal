@@ -41,7 +41,7 @@ def bin2dec():
         if last_digit == 1:
             dec_num += 2 ** pwr
         pwr += 1
-        user_input = int(user_input/10)
+        user_input = int(user_input / 10)
     print('Your decimal number is:', dec_num)
 
 def main():
